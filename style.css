@@ -1,8 +1,68 @@
 .google {
     width: 100%;
     margin: 0 auto;
-    padding-top: 15%;
+    padding-top: 15%
 }
+
+.header {
+    width: 50%;
+    float: right;
+    right: 90%;
+    padding: 10px;
+    text-align: right;
+}
+
+.links {
+    text-decoration: none;
+    font-size: 12px;
+    font-family: arial,sans-serif;
+    color: #222;
+    padding-right: 40px;
+}
+
+.lennav {
+    padding: 5px;
+    display: inline;
+    color: #757575;
+}
+
+.links a {
+    padding: 5px;
+}
+
+a:link {
+    color: #222;
+    text-decoration: none;
+}
+
+.hovers {
+    display: inline;
+    position: absolute;
+    margin-top: -19px;
+    margin-left: -36px;
+}
+
+a:visited {
+    color: #222;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #222;
+    text-decoration: underline;
+}
+
+.hovers img {
+    height: 26px;
+    width: 26px;
+}
+
+
+
+
+
+
+
 
 
 #logo {
@@ -69,9 +129,52 @@ form input:focus {
     color: #757575;
     outline: none;
     background-color: #F2F2F2;
-
-
-
-
-
 }
+
+
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 36px;
+    background-color: #F2F2F2;
+    border-top: 1px solid #E4E4E4;
+}
+
+.footer span {
+    position: absolute;
+    top: 25%;
+    font-size: small;
+    font-family: arial,sans-serif;
+    color: #757575;
+    outline: medium none;
+    background-color: #F2F2F2;
+}
+
+.footer span a {
+    color: #757575;
+    font-size: 11px;
+    padding: 10px;
+}
+
+#left {
+    position: absolute;
+    float: left;
+    left: 3%;
+}
+
+#right {
+    position: absolute;
+    float: right;
+    right: 3%;
+}
+
+
+
+
+
+
+
+
+
